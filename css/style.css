@@ -1,11 +1,11 @@
 :root{
     /* fonts */
-    --principalFont: "Krona One", sans-serif;
+    --principalFont: "Bebas Neue", sans-serif;
     --secondaryFont: "Montserrat", sans-serif;
 
     /* sizes */
     --regularFont: 2.4rem;
-    --largeFont: 3.6rem;
+    --largeFont: 4.2rem;
 
     /* colors */
     --darkPurple: #300D20;
@@ -37,7 +37,7 @@ body{
 }
 
 .header__menu--link{
-    font-family: var(--secondaryFont);
+    font-family: var(--principalFont);
     font-size: var(--regularFont);
     font-weight: 600;
     color: var(--pink);
@@ -103,7 +103,7 @@ body{
 }
 
 .presentation__links__subtitle{
-    font-family: var(--secondaryFont);
+    font-family: var(--principalFont);
     font-size: var(--largeFont);
     font-weight: 400;
 }
